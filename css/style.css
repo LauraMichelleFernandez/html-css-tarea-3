@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Homenaje&family=Luckiest+Guy&family=Montserrat:ital,wght@0,300;0,700;1,300;1,700&family=Permanent+Marker&display=swap');
+
+/*Tipografias:
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Homenaje', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;*/
+
+.parallax {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(253, 16, 16, 0.5)), url("../img/Fondo.jpeg");
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: expansion 5s ;
+}
+
+section#pagina {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(194, 15, 15, 0.5))
+}
+
+.cards {
+    background: url(../img/Noeasy.jpg);
+}
+/*Menú en la parte superior*/
+
+header {
+    height: 531px;
+}
+
+header nav.navbar{
+    background-color: #6b4c4c;
+    font-family: 'Alfa Slab One';
+
+}
+header nav.navbar div.container-fluid a.navbar-brand img {
+    width: 112px;
+}
+
+header nav.navbar div.container-fluid div.collapse ul.navbar-nav li.nav-item a.nav-link {
+    padding: 10px 32px;
+}
+
+header nav.navbar div.container-fluid div.collapse ul.navbar-nav li.nav-item a.nav-link:hover {
+    background-color: #482626;
+    border-radius: 50%;
+}
+
+/*Inicio*/
+ header div.mask div.d-flex div.text-white h1,
+ header div.mask div.d-flex div.text-white h4 {
+     font-family: 'Permanent Marker';
+ }
+
+ /*Quienes Somos*/
+/*
+section#quienes-somos {
+    padding: 20px;*/
+
+section#quienes-somos div.container div.col h3,
+section#quienes-somos div.container div.row div.col p {
+    font-family: 'Montserrat';
+    font-weight: 250;
+    text-justify: distribute-all-lines;
+    width: 1264px;
+    height: 33px;
+    color: black;
+}
+
+section#quienes-somos div.container div.row div.col-12 p {
+    color: black;
+    font-family: 'Montserrat';
+    text-justify: distribute-all-lines;
+}
+
+section#quienes-somos div.container div.col h2 {
+    font-family: 'Luckiest Guy';
+    font-weight: 600;
+    font-size: 2.2rem;
+    width: 1264px;
+    height: 33px;
+    color: black;
+}
+
+section#quienes-somos div.container {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+
+}
+
+section#quienes-somos div.container div.row div.col-12 {
+    width: 1289px;
+}
+
+section#quienes-somos div.container div.row {
+    flex-wrap: nowrap;
+    width: 936px;
+    text-align: justify;
+}
+
+section#quienes-somos div.container div.row div.col-12-1 {
+    width: 300px;
+}
+
+section#quienes-somos div.container div.row div.col-12-1 img {
+    border-radius: 36%;
+}
+
+/*Nustra Carrera*/
+
+section#nuestra-carrera {
+    padding-top: 40px;
+}
+
+section#nuestra-carrera h2,
+section#nuestra-carrera p {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+section#nuestra-carrera {
+    height: 332px;
+}
+section#nuestra-carrera div.container {
+    margin-left: 77px;
+    margin-right: 31px;
+}
+
+section#nuestra-carrera p {
+    text-align: center;
+    font-family: 'Montserrat';
+    width: 1350px;
+    height: 1264px;
+    font-weight: 250
+}
+
+section#nuestra-carrera h2,
+section#integrantes div.col h2 {
+    font-family: 'Luckiest Guy';
+        margin-top: 20px;
+}
+
+section#nuestra-carrera div.parallax {
+    height: 300px;
+}
+
+/*Integrantes*/
+
+section#integrantes {
+    color: black;
+}
+
+section#integrantes div.container div.row div.p-3 img{
+    width: 300px;
+    image-orientation: center;
+}
+ section#integrantes div.container div.row div.col-4 div.p-3{
+    text-align: center;
+    background-color: transparent;
+ }
+ section#integrantes div.container div.row div.col-4 div.p-3 p ul li{
+    list-style: none;
+ }
+
+ section#integrantes div.container div.row div.col-4 div.p-3 h2 {
+     font-family: 'Homenaje';
+     font-size:xx-large;
+ }
+
+ section#integrantes div.container div.row div.col-4 div.p-3 p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 250;
+}
+
+section#integrantes div.container {
+    margin: 0px;
+    
+
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1360px;
+}
+
+section#integrantes div.container div.row div.p-3 img.woojin{
+    width: 254px;
+}
+
+/*Premios*/
+
+
+section#premios div.container div.row div#carouselExampleCrossfade{
+    width: 50%!important;
+    text-align: center;
+}
+
+section#premios div.container div.row div#carouselExampleCrossfade{
+    left: 335px;
+}
+
+section#premios div.container div.row h2{
+    color: #fff;
+    font-family: 'Luckiest Guy';
+}
+
+
+section#premios div.container div.row div#carouselExampleCrossfade div.carousel-inner div.carousel-item div.carousel-caption h5 {
+    font-family: 'Luckiest Guy';
+    margin-top: 20px;
+    color: #000;
+}
+
+section#premios div.container div.row p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 250;
+    color: #fff;
+}
+section#premios div.container div.row div#carouselExampleCrossfade div.carousel-inner div.carousel-item div.carousel-caption p{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 250;
+    text-shadow: crimson;
+}
+
+section#premios div.container div.row div#carouselExampleCrossfade div.carousel-inner div.carousel-item div.carousel-caption p {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+    
+}
+
+section#premios div.container div.row div#carouselExampleCrossfade div.carousel-inner div.carousel-item div.carousel-caption h5{
+    text-shadow:white 1px 1px;
+}
+
+/*Discografia*/
+
+section#discografia div.container h2 {
+    font-family: 'Luckiest Guy';
+    color: black;
+    text-align:center;
+}
+
+section#discografia div.container p{
+    font-family: 'Montserrat';
+    color: black;
+    text-align:center;
+}
+
+section#discografia div.container div.row div.col-4 div.card {
+    background-image: url();
+    background-size: contain;
+    background-position: center;
+    width: 413px;
+    height: 413px;
+}
+
+section#discografia div.container div.row div.col-4 div.card div.d-flex h2 {
+    font-family: 'Alfa Slab One';
+    font-size: 30px;
+    text-shadow:white 1px 1px;
+
+}
+
+section#discografia div.container div.row div.col-4 div.card div.d-flex ul.d-flex li.d-flex small {
+    font-family: 'Alfa Slab One';
+    font-size: 20px;
+    color: black;
+    text-shadow:white 1px 1px;
+}
+
+section#discografia .pt-5 {
+    padding-top: 14rem!important;
+}
+
+section#discografia div.container div.row div.col-4 div.card:hover {
+    transform: scale3d(1.2, 1.2, 1.2) rotateY( 360deg) translateZ(50px);
+    transition: all 1s;
+}
+
+/*Encuesta*/
+
+#encuesta {
+    height: 100%;
+}
+
+section#encuesta div h2 {
+    font-family: 'Alfa Slab One';
+    font-size: 30px;
+    color: white;
+    text-align:center;
+}
+
+section#encuesta div p {
+    font-family: 'Montserrat';
+    color: white;
+    text-align:center;
+}
+
+/*Fooder*/
+
+footer{
+    background-color: #6b4c4c
+}
+
+footer div div.row div.col-12 div.ratio {
+    margin-left: 337px;
+    width: 25%;
+    height: 100%;
+}
+
+.form-control,
+.form-control:focus,
+.form-outline,
+.form-outline .form-control~.form-label {
+    color: white;
+}
+
+footer div.row a,
+footer div.row p{
+    font-family: 'Homenaje';
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+}
+
+a#btn-floating {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #8d0100;
+    border: none;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+@keyframes expansion {
+    from {
+        background-position-y: 35%;
+    }
+    to {
+        background-position-y: 45%;
+    }
+}
+
+@keyframes expansion-h1 {
+    from {
+        font-size: 2em;
+    }
+    to {
+        font-size: 5rem;
+    }
+}
